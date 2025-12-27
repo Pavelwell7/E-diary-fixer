@@ -24,7 +24,7 @@ fix_marks("ФИО_ученика")
 
 remove_chastisements("ФИО_ученика")
 
-create_commendation("ФИО_ученика")
+create_commendation("ФИО_ученика", "год_обучения", "буква_класса", "предмет")
 ```
 
 Код написан в учебных целях — это урок в курсе по Python и веб-разработке на сайте [Devman](https://dvmn.org).
