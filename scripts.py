@@ -1,6 +1,6 @@
 import random
 
-from datacenter.models import Schoolkid, Commendation, Mark, Chastisement
+from datacenter.models import Schoolkid, Commendation, Mark, Chastisement, Lesson
 
 
 def fix_marks(schoolkid):
@@ -58,4 +58,5 @@ def create_commendation(schoolkid):
     except Schoolkid.MultipleObjectsReturned:
         print(f"Найдено несколько учеников с именем '{schoolkid}'. Напишите полностью ФИО!!!")
         return None
+
 
